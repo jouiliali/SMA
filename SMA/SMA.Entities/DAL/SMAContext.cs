@@ -67,9 +67,34 @@ namespace SMA.Entities.Models
               .Map(m => m.ToTable("Feeds"))
               .Map<Event>(m => m.ToTable("Events"));
 
-            
-               
+            modelBuilder.Entity<Schedule>()
+    .HasRequired(s => s.SubjectLevel)
+    .WithMany()
+    .WillCascadeOnDelete(false);
+
+
+            modelBuilder.Entity < Attendance>()
+    .HasRequired(s => s.SchoolYear)
+    .WithMany()
+    .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Student>()
+    .HasRequired(s => s.Class)
+    .WithMany()
+    .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<FeedComment>()
+    .HasRequired(s => s.UserSMA)
+    .WithMany()
+    .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<StudentComment>()
+    .HasRequired(s => s.UserSMA)
+    .WithMany()
+    .WillCascadeOnDelete(false);
+
         }
+        
     }
 }
 

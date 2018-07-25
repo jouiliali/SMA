@@ -13,7 +13,7 @@ namespace SMA.Web
         protected void Application_Start()
         {
             //Database.SetInitializer<SMAContext>(new SMADBInitializer());
-            DbConfiguration.SetConfiguration(new MySqlEFConfiguration());
+            //DbConfiguration.SetConfiguration(new MySqlEFConfiguration());
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             GlobalConfiguration.Configure(ODataConfig.Register);

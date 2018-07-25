@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks", "Frameworks", "{D90F4E72-AD7E-4255-9631-AB84CBA6ABD0}"
 EndProject
@@ -134,11 +134,12 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45
+		SolutionGuid = {EF2DFBEE-2922-4F71-8F8F-96933E16BBF6}
 	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 9
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://alijouili.visualstudio.com/defaultcollection
+		SccTeamFoundationServer = https://alijouili.visualstudio.com/
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = Frameworks\\Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj
 		SccProjectTopLevelParentUniqueName1 = SMA.sln

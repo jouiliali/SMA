@@ -13,7 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <SccProjectName>%24/SMA/SMA/Frameworks/Repository.Pattern</SccProjectName>
     <SccLocalPath>.</SccLocalPath>
-    <SccAuxPath>https://alijouili.visualstudio.com/defaultcollection</SccAuxPath>
+    <SccAuxPath>https://alijouili.visualstudio.com</SccAuxPath>
     <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
